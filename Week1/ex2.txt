@@ -1,0 +1,6 @@
+cd week1
+whoami
+man man
+man
+pwd
+history>ex2.txt

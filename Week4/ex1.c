@@ -5,8 +5,8 @@ int main(void) {
     int pid;
     pid = fork();
     if (pid == 0) {
-        printf("Hello from child [PID - %d]\n", getpid());
+        printf("HELLO FROM PARENT [PID - %d]\n", getpid());
     } else {
-        printf("Hello from parent [PID - %d]\n", getpid());
+        printf("HELLO FROM CHILD [PID - %d]\n", getpid());
     }
 }

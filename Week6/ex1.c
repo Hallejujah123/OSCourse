@@ -38,7 +38,7 @@ void solve(int processes[], int n, int burst_times[], int arrival_times[]){
         printf("WT: %d\n", wts[i]);
         printf("TAT: %d\n", tats[i]);
     }
-    printf("\AVERAGE WT: %f\n", (float)wt / (float)n);
+    printf("\nAVERAGE WT: %f\n", (float)wt / (float)n);
     printf("AVERAGE TAt: %f\n", (float)tat / (float)n);
 }
 

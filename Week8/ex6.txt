@@ -1,0 +1,4 @@
+Answer: 8 entries
+Solution:
+8KB is 2^13b, so page will borrow 13 addresses =>
+=> 3 addresses available and 2^3 is 8

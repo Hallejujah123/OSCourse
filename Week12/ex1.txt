@@ -1,5 +1,5 @@
 dma1 is a port of direct memory access that takes addresses from 0000 to 001f
-pic1 is a first perepherical interface controller port 
+pic1 is a first programmable interrupt controller that can queue and prioritize interrupts for processor
 timer1 is a hardware interrupt timer
 
 0000-0cf7 : PCI Bus 0000:00
